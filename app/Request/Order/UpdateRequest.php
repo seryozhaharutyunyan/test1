@@ -1,15 +1,14 @@
 <?php
 
-namespace App\Request;
+namespace App\Request\Order;
 
 use Engine\Core\Request\Request;
 
-class OrderRequest extends Request
+class UpdateRequest extends Request
 {
 
     protected function validated(): array
     {
         // TODO: Implement validated() method.
-        return [];
     }
 }

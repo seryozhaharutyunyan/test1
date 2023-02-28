@@ -3,7 +3,8 @@
 namespace App\Controller;
 
 use App\Model\Order\Order;
-use App\Request\OrderRequest;
+use App\Request\Order\StoreRequest;
+use App\Request\Order\UpdateRequest;
 
 class OrderController extends Controller
 {
@@ -15,16 +16,39 @@ class OrderController extends Controller
     }
 
     /**
-     * @param OrderRequest $request
-     * set orders
+     * add order
+     * @param StoreRequest $request
      */
-    public function set(OrderRequest $request)
+    public function store(StoreRequest $request)
     {
     }
 
     /**
-     * @param OrderRequest $request
-     * set orders
+     * update order
+     * @param UpdateRequest $request
+     */
+    public function update(UpdateRequest $request)
+    {
+    }
+
+    /**
+     * delete order
+     * @param Order $order
+     */
+    public function delete(Order $order)
+    {
+    }
+
+    /**
+     * set all orders
+     */
+    public function set()
+    {
+    }
+
+    /**
+     * @param Order $order
+     * set one order
      */
     public function setOne(Order $order)
     {
