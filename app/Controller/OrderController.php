@@ -27,7 +27,7 @@ class OrderController extends Controller
      * update order
      * @param UpdateRequest $request
      */
-    public function update(UpdateRequest $request)
+    public function update(UpdateRequest $request, Order $order)
     {
     }
 
